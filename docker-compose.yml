@@ -5,7 +5,7 @@ services:
     image: jk_im_servidor_f:0.1
     build: 
      context: .
-     dockerfile: dockerfileIndv
+     dockerfile: dockerfile
     ports:
       - "8080:8080"
     networks:
